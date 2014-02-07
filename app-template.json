@@ -1,8 +1,8 @@
 {
-  "name": "Blank Cloud MBaaS Instance",
+  "name": "Twilio Connector",
   "type": "cloud_nodejs",
-  "repoUrl": "https://github.com/feedhenry/fh-cloud-mbaas-instance-blank.git",
+  "repoUrl": "https://github.com/feedhenry/fh-connector-twilio-cloud.git",
   "repoBranch": "refs/heads/master",
-  "icon": "icon-cloud",
-  "category": "Blank Apps"
+  "image": "public/img/cloud_plugins/twilio.png",
+  "category": "SaaS"
 }
