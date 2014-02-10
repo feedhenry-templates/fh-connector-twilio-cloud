@@ -4,5 +4,20 @@
   "repoUrl": "https://github.com/feedhenry/fh-connector-twilio-cloud.git",
   "repoBranch": "refs/heads/master",
   "image": "public/img/cloud_plugins/twilio.png",
-  "category": "SaaS"
+  "category": "SaaS",
+  "configuration": [
+    {
+      "desc": "Twilio account SID",
+      "varName": "TWILIO_SID"
+    },
+    {
+      "desc": "Twilio Auth Token",
+      "varName": "TWILIO_AUTH"
+    },
+    {
+      "desc": "Your Twilio number you\"ve been assigned",
+      "varName": "TWILIO_NUMBER"
+    }
+  ],
+
 }
