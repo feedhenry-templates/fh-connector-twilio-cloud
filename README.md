@@ -4,7 +4,7 @@ FORMAT: 1A
 
 The FeedHenry Twilio Connector. For more information on Twilio see: [twilio.github.io/twilio-node/](http://twilio.github.io/twilio-node/).
 
-# Group Twilio Service API
+# Group Twilio Connector API
 
 # SMS [/cloud/sms]
 
@@ -15,7 +15,6 @@ Send a Twilio SMS.
 Send an SMS from your Twilio account.
 
 + Request (application/json)
-
     + Body
             {
               "to": "recipient",
@@ -23,6 +22,9 @@ Send an SMS from your Twilio account.
             }
 
 + Response 200 (application/json)
-
+    + Body
+            {
+              "ok": "true"
+            }
 
 
