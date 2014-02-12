@@ -1,6 +1,7 @@
 {
   "name": "Twilio Connector",
   "type": "cloud_nodejs",
+  "docs": "https://raw2.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md",
   "repoUrl": "https://github.com/feedhenry/fh-connector-twilio-cloud.git",
   "repoBranch": "refs/heads/master",
   "image": "public/img/cloud_plugins/twilio.png",
