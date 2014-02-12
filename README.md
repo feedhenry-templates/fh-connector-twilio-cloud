@@ -1,8 +1,8 @@
 FORMAT: 1A
 
-# FeedHenry Twilio Service
+# FeedHenry Twilio Connector
 
-Twilio cloud app for twilio connector. For more information see: [twilio.github.io/twilio-node/](http://twilio.github.io/twilio-node/).
+The FeedHenry Twilio Connector. For more information on Twilio see: [twilio.github.io/twilio-node/](http://twilio.github.io/twilio-node/).
 
 # Group Twilio Service API
 
