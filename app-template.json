@@ -1,4 +1,5 @@
 {
+  "id": "twilio-cloud",
   "name": "Twilio Connector",
   "type": "cloud_nodejs",
   "docs": "https://raw2.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md",
