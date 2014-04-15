@@ -20,6 +20,6 @@
       "desc": "Your Twilio number you\"ve been assigned",
       "varName": "TWILIO_NUMBER"
     }
-  ],
+  ]
 
 }
