@@ -3,11 +3,11 @@
  @param to : recipient
  @param body : message body
  */
-exports.sms = function(params, cb){
+exports.sms = function(params, cb) {
   // Your accountSid and authToken from twilio.com/user/account
   var accountSid = process.env.TWILIO_SID,
-  authToken = process.env.TWILIO_AUTH,
-  client = require('twilio')(accountSid, authToken);
+    authToken = process.env.TWILIO_AUTH,
+    client = require('twilio')(accountSid, authToken);
 
   client.sms.messages.create({
     body: params.body,
