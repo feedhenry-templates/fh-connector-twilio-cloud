@@ -1,31 +1,60 @@
-FORMAT: 1A
-
 # FeedHenry Twilio Connector
+
 [![Dependency Status](https://img.shields.io/david/feedhenry-templates/fh-connector-twilio-cloud.svg?style=flat-square)](https://david-dm.org/feedhenry-templates/fh-connector-twilio-cloud)
 
 The FeedHenry Twilio Connector. For more information on Twilio see: [twilio.github.io/twilio-node/](http://twilio.github.io/twilio-node/).
 
-# Group Twilio Connector API
+## Group Twilio Connector API
 
-# SMS [/cloud/sms]
-
-Send a Twilio SMS.
-
-## SMS [POST] 
+### SMS
 
 Send an SMS from your Twilio account.
 
-+ Request (application/json)
-    + Body
-            {
-              "to": "recipient",
-              "body": "message body"
-            }
+|              |                | 
+|--------------|----------------|
+| Endpoint     | /cloud/sms     |
+| HTTP Method  | POST           |
 
-+ Response 200 (application/json)
-    + Body
-            {
-              "ok": "true"
-            }
+#### Request (application/json)
 
+##### Body
 
+```json 
+{
+  "to": "recipient",
+  "body": "message body"
+}
+```
+
+#### Response 200 (application/json)
+    
+##### Body
+            
+```json
+{
+  "ok": "true"
+}
+```
+
+## Tests
+
+All the tests are in the "test/" directory. The cloud app is using mocha as the test runner. 
+
+### Unit tests
+
+```shell
+npm run serve
+npm run unit
+```
+
+or
+
+```shell
+npm run test
+```
+
+### Unit coverage
+
+```shell
+npm run coverage
+```
